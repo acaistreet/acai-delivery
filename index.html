@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Açaí Street Delivery</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #2b0033, #5a0070);
+  color: #fff;
+}
+header {
+  padding: 20px;
+  text-align: center;
+}
+header h1 {
+  font-size: 2.2em;
+  margin: 0;
+}
+header p {
+  opacity: 0.9;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+.card {
+  background: rgba(0,0,0,0.35);
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+h2 {
+  margin-top: 0;
+}
+label {
+  display: block;
+  margin-top: 10px;
+}
+input, select, button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1em;
+}
+button {
+  background: #00e676;
+  color: #000;
+  font-weight: bold;
+  margin-top: 15px;
+  cursor: pointer;
+}
+button:hover {
+  background: #00c853;
+}
+.footer {
+  text-align: center;
+  font-size: 0.9em;
+  opacity: 0.8;
+  margin: 30px 0;
+}
+.badge {
+  background: #00e676;
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.8em;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🍧 Açaí Street Delivery</h1>
+  <p>Frio Maluco • Entregas das <strong>12h às 22h</strong></p>
+  <span class="badge">Entrega grátis acima de R$50</span>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <h2>Monte seu Açaí</h2>
+    <label>Tamanho</label>
+    <select>
+      <option>300ml</option>
+      <option>500ml</option>
+      <option>700ml</option>
+    </select>
+
+    <label>Calda (1 opção)</label>
+    <select>
+      <option>Chocolate</option>
+      <option>Morango</option>
+      <option>Caramelo</option>
+    </select>
+
+    <label>Acompanhamentos (até 3 grátis — R$3 cada extra)</label>
+    <select>
+      <option>Granola</option>
+      <option>Leite Ninho</option>
+      <option>Paçoca</option>
+      <option>Banana</option>
+      <option>Morango</option>
+    </select>
+  </div>
+
+  <div class="card">
+    <h2>Endereço de Entrega</h2>
+    <label>Bairro</label>
+    <input type="text" placeholder="Ex: Centro">
+
+    <label>Rua e número</label>
+    <input type="text" placeholder="Ex: Rua A, 123">
+
+    <label>Distância aproximada</label>
+    <select>
+      <option>Próximo — R$5</option>
+      <option>Médio — R$15</option>
+      <option>Longe — R$20</option>
+    </select>
+  </div>
+
+  <div class="card">
+    <h2>Finalizar Pedido</h2>
+    <button>Enviar pedido pelo WhatsApp</button>
+  </div>
+
+</div>
+
+<div class="footer">
+  © 2026 • Açaí Street Delivery • Sabor que vicia 😈🍧
+</div>
+
+</body>
+</html>
